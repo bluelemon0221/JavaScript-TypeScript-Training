@@ -1,7 +1,9 @@
-import { useReducer, useRef, useState, useMemo } from 'react';
+import { useReducer, useRef, useState, useMemo, useCallback } from 'react';
 import './App.css'
 import { useEffect, useContext } from 'react';
 import ShinCodeInfo from './main';
+import SomeChild from './SomeChild';
+import useLocalStorage from './useLocalStorage';
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -55,6 +57,19 @@ function App() {
     return count02 * count02;
   }, [count02]);
 
+  //useCallBack 関数のメモ化
+  const [counter, setCounter] = useState(0);
+  // const showCount = () => {
+  //   alert(`これは重い処理です`)
+  // }
+
+  const showCount = useCallback(() => {
+    alert(`これは重い処理です`)
+  }, [counter]);
+
+  //カスタムフック
+  const [age, setAge] = useLocalStorage("age", 24);
+
   return (
     <>
       <h1>UseState, UseEffect</h1>
@@ -80,6 +95,14 @@ function App() {
       <div>結果:{square}</div>
       <button onClick={() => setCount01(count01 + 1)}>+</button>
       <button onClick={() => setCount02(count02 + 1)}>+</button>
+      <hr />
+      <h1>useCallBack</h1>
+      <SomeChild showCount={showCount} />
+      <hr />
+      <h1>カスタムフック</h1>
+      <p>{age}</p>
+      <button onClick={() => {setAge(80)}}>年齢をセット</button>
+
     </>
   )
 }
