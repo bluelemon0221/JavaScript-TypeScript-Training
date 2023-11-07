@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": "next.js13-udemy",
+      "title": "Next.js13をUdemyで学ぶ",
+      "content": "shincodeさんの教材でNext.jsを学んでいます。",
+      "createdAt": "2022/07/14"
+    },
+    {
+      "id": "json-server",
+      "title": "Jsonサーバー",
+      "content": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)      Created with <3 for front-end developers who need a quick back-end for prototyping and mocking. Egghead.io free video tutorial - Creating demo APIs with json-serverJSONPlaceholder - Live running version My JSON Server - no installation required, use your own dataSee also:🐶 husky - Git hooks made easy🦉 lowdb - local JSON database✅ xv - a beautifully simple and capable test runner",
+      "createdAt": "2022/07/14"
+    },
+    {
+      "id": "eu-japan-data-flow-agreement",
+      "title": "EU and Japan conclude agreement on data flows",
+      "content": "BRUSSELS – The European Union and Japan concluded an agreement Saturday on cross-border data flows, which should drive business and may help shape global rules for data, the European Commission said.The European Commission said the agreement would benefit companies across a range of sectors, including financial services, transport, machinery and e-commerce, allowing them to handle data without cumbersome and costly administration.It will end the need to localize data, making business more efficient, all the while ensuring the highest protection of the data of our citizens, EU trade chief Valdis Dombrovskis said.The agreement seeks to strike a balance between a freer Japanese approach and the EU's greater stress on personal protection and privacy.It will also prohibit restrictions of a protectionist nature, such as rules requiring localization, while allowing authorities to intervene in matters such as cybersecurity or privacy and personal data.The two partners concluded a free trade agreement in 2015, but left open what to do about data flows. After a year of talks since October 2022, they have now filled that gap.The EU plans similar data negotiations with free trade partners Singapore and South Korea and aims to include rules on digital trade in future free trade agreements.",
+      "createdAt": "2022/07/14"
+    },
+    {
+      "id": "nex--",
+      "title": "next.js13tutorial",
+      "content": "appディレクトリはデフォルトでサーバーサイドレンダリングを行います。\n",
+      "createdAt": "2023-10-29T02:10:40.754Z"
+    },
+    {
+      "id": "tests",
+      "title": "sss",
+      "content": "fdlsakjfd@saoikfjdas@poiiiiiiiiiiijg@iorw@aogi@jh",
+      "createdAt": "2023-10-29T02:13:35.530Z"
+    },
+    {
+      "id": "123546",
+      "title": "klklklklkpojkpoij",
+      "content": "biyfp9uygo;lkjgoiugi",
+      "createdAt": "2023-10-29T08:47:17.167Z"
+    }
+  ]
+}
